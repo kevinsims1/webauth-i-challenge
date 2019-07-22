@@ -1,0 +1,28 @@
+{
+  "name": "webauth-i-challenge",
+  "version": "1.0.0",
+  "description": "web auth I challenege",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinsims1/webauth-i-challenge.git"
+  },
+  "author": "kevin sims",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinsims1/webauth-i-challenge/issues"
+  },
+  "homepage": "https://github.com/kevinsims1/webauth-i-challenge#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "knex": "^0.19.0",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
