@@ -12,7 +12,13 @@ function find() {
 }
 
 function findBy(filter) {
-  return db('users').where(filter);
+  return db('users').where(filter).then((user)=>{
+    if(user.length){
+      return user[0]
+    } else {
+      null
+    }
+  });
 }
 
 function add(user) {
